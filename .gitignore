@@ -1,0 +1,15 @@
+# Ignorar dependencias pesadas
+node_modules/
+dist/
+.next/
+
+# Ignorar credenciales y entornos confidenciales
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
